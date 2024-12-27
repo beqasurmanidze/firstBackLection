@@ -1,9 +1,17 @@
 import { React } from "react";
-
+import EditFeedBack from "./EditFeedback/EditFeedback";
+import CommentsSection from "./Comments/CommentsSection";
+import AddComment from "./addComment/AddComment";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="flex justify-center flex-col ">
+        <EditFeedBack />
+      </div>
+      <CommentsSection />
+      <div className="flex justify-center bg-gray-100 ">
+        <AddComment />
+      </div>
     </>
   );
 }
