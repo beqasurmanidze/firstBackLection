@@ -3,15 +3,12 @@ import React from "react";
 const CreateNewFeedback = () => {
   return (
     <div className="relative max-w-lg mx-auto bg-white rounded-lg shadow-md p-6 mt-10 w-[540px] h-[657px]">
-      {/* "Go Back" Button */}
-
-      {/* Icon and Header */}
       <div className="mt-12 text-center flex-col">
         <button className="absolute top-4 left-4 text-blue-500 text-lg flex items-center">
           <img src="arrow.svg" alt="arrow" className="mr-2" />
           Go Back
         </button>
-        {/* Icon */}
+
         <div className="mb-4 ">
           <img
             src="add.svg"
@@ -19,15 +16,13 @@ const CreateNewFeedback = () => {
             className="w-12 h-12 bg-purple-500 text-white rounded-full "
           />
         </div>
-        {/* Form Header */}
+
         <div className="flex flex-start">
           <h2 className="text-xl font-bold">Create New Feedback</h2>
         </div>
       </div>
 
-      {/* Form */}
       <form className="mt-6">
-        {/* Feedback Title */}
         <div className="mb-4">
           <label
             htmlFor="title"
@@ -45,7 +40,6 @@ const CreateNewFeedback = () => {
           />
         </div>
 
-        {/* Category */}
         <div className="mb-4">
           <label
             htmlFor="category"
@@ -67,7 +61,6 @@ const CreateNewFeedback = () => {
           </select>
         </div>
 
-        {/* Feedback Detail */}
         <div className="mb-6">
           <label
             htmlFor="details"
@@ -83,7 +76,6 @@ const CreateNewFeedback = () => {
           ></textarea>
         </div>
 
-        {/* Buttons */}
         <div className="flex justify-end space-x-4">
           <button
             type="button"
