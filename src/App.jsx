@@ -5,7 +5,7 @@ import AddComment from "./addComment/AddComment";
 function App() {
   return (
     <>
-      <div className="flex justify-center flex-col ">
+      <div className="flex justify-center flex-col bg-gray-100 ">
         <EditFeedBack />
       </div>
       <CommentsSection />
