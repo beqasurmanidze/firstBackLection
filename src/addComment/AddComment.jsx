@@ -40,7 +40,7 @@ const AddComment = () => {
           onClick={handleSubmit}
           className="bg-purple-500 text-white py-2 px-4 rounded-lg hover:bg-purple-600"
         >
-          Post Comment
+          post Comment
         </button>
       </div>
     </div>
